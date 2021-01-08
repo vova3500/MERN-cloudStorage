@@ -1,5 +1,6 @@
 const setFiles ="SET_FILES"
 const setCurrentDir = "SET_CURRENT_DIR";
+const addFile= "ADD_FILE"
 
 
 const initialState = {
@@ -13,6 +14,13 @@ const file = (state = initialState, action) => {
       return {
         ...state,
         files: action.payload,
+      };
+    }
+
+    case addFile: {
+      return {
+        ...state,
+        files: [...state.files, action.payload],
       };
     }
 

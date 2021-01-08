@@ -32,4 +32,18 @@ export const diskAPI = {
         }
       );
     },
+
+   createDir(dirId, name ) {
+      return instance.post(
+        `file`,
+        {
+          name,
+          parent:dirId,
+          type: 'dir'
+        },
+        {
+          headers: {Authorization: `Bearer ${localStorage.getItem('token')}`}
+        }
+      );
+    },
 };

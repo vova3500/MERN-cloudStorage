@@ -19,7 +19,7 @@ const FileList = () => {
       {!files.length ? (
         <div className="loader">Файлы не найдены</div>
       ) : (
-        files.map((file) => <List {...file} />)
+        files.reverse().map((file) => <List {...file} />)
       )}
     </div>
   );

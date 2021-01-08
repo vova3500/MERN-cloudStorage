@@ -1,0 +1,24 @@
+.file {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.file__type {
+  flex-basis: 5%;
+}
+
+.file__name {
+  flex-basis: 40%;
+}
+
+.file__data {
+  flex-basis: 35%;
+}
+
+.file__size {
+  flex-basis: 15%;
+}

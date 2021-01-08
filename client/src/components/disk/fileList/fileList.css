@@ -1,0 +1,29 @@
+.filelist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.filelist__header {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.filelist__type {
+  flex-basis: 5%;
+}
+
+.filelist__name {
+  flex-basis: 40%;
+}
+
+.filelist__data {
+  flex-basis: 35%;
+}
+
+.filelist__size {
+  flex-basis: 15%;
+}

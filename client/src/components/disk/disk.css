@@ -1,0 +1,11 @@
+.disk {
+  width: 95%;
+  border-top: 1px solid rgb(218, 218, 218);
+}
+
+.disk__btns {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

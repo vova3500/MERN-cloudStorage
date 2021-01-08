@@ -1,0 +1,27 @@
+.navbar {
+  width: calc(100% - 60px);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__container {
+  display: flex;
+}
+
+.navbar__container > div a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar__container div:first-child {
+  margin-right: 20px;
+}
+
+.navbar__logo img {
+  width: 50%;
+}
